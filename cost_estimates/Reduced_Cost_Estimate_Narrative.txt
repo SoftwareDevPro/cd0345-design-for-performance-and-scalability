@@ -1,0 +1,1 @@
+The web server instance type (m6i.24xlarge) are more than is required for the social media application, at 96 vCPUs (virtual CPU's), and 384 GiB of memory, especially given that application is load balanced between 2 servers.  The m6i.8xlarge instance types at 32 vCPUs, and 128 GiB of memory will be sufficient to meet the demands, peak usage times.

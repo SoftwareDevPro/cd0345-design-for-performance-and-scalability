@@ -1,0 +1,15 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Cloudfront Distribution,Amazon CloudFront,0,169.92,2039.04,USD,Data transfer out to internet (1999 GB per month)
+My Estimate,US East (N. Virginia),S3 Bucket,S3 Standard,0,23,276.00,USD,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),S3 Bucket,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),VPC Instance,VPN Connection,0,0,0.00,USD,Working days per month (22)
+My Estimate,US East (N. Virginia),VPC Instance,Network Address Translation (NAT) Gateway,0,155.7,1868.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Load Balancer,Application Load Balancer,0,44.53,534.36,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Web Servers ,Amazon EC2,0,4456.36,53476.32,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (m6i.24xlarge)"
+My Estimate,US East (N. Virginia),Application Servers,Amazon EC2,0,310.56,3726.72,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t3.2xlarge)"
+My Estimate,US East (N. Virginia),Database Servers,Amazon RDS for MySQL,0,4008.36,48100.32,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (2), Instance type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

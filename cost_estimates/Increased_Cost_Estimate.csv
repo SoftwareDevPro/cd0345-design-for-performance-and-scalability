@@ -1,0 +1,25 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Cloudfront Distribution,Amazon CloudFront,0,169.92,2039.04,USD,Data transfer out to internet (1999 GB per month)
+My Estimate,US East (N. Virginia),S3 Bucket,S3 Standard,0,23,276.00,USD,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),S3 Bucket,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),VPC Instance,VPN Connection,0,0,0.00,USD,Working days per month (22)
+My Estimate,US East (N. Virginia),VPC Instance,Network Address Translation (NAT) Gateway,0,155.7,1868.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Load Balancer,Application Load Balancer,0,44.53,534.36,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Web Servers ,Amazon EC2,0,1489.45,17873.40,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (m6i.8xlarge)"
+My Estimate,US East (N. Virginia),Application Servers,Amazon EC2,0,2972.91,35674.92,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (m6i.16xlarge)"
+My Estimate,US East (N. Virginia),Database Servers,Amazon RDS for MySQL,0,4454.5599999999995,53454.72,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1000 GB), Quantity (2), Instance type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US West (Oregon),VPC Instance,VPN Connection,0,0,0.00,USD,Working days per month (22)
+My Estimate,US West (Oregon),VPC Instance,Network Address Translation (NAT) Gateway,0,155.7,1868.40,USD,Number of NAT Gateways (2)
+My Estimate,US West (Oregon),Load Balancer,Application Load Balancer,0,44.53,534.36,USD,Number of Application Load Balancers (2)
+My Estimate,US West (Oregon),Database Servers,Amazon RDS for MySQL,0,4454.1,53449.20,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (999 GB), Quantity (2), Instance type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US West (Oregon),Application Servers,Amazon EC2,0,2972.91,35674.92,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (m6i.16xlarge)"
+My Estimate,US West (Oregon),Web Servers ,Amazon EC2,0,1489.45,17873.40,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (m6i.8xlarge)"
+My Estimate,US West (Oregon),Cloudfront Distribution,Amazon CloudFront,0,169.92,2039.04,USD,Data transfer out to internet (1999 GB per month)
+My Estimate,US West (Oregon),Route 53,Amazon Route 53,0,390,4680.00,USD,"Basic Checks Within AWS (100), Number of Elastic Network Interfaces (4)"
+My Estimate,US East (N. Virginia),CloudWatch,Amazon CloudWatch,0,206.95,2483.40,USD,"Number of Metrics (includes detailed and custom metrics) (50), GetMetricData: Number of metrics requested (), Standard Logs: Data Ingested (100 GB), Number of Dashboards (50), Expected Logs Data scanned (100 GB)"
+My Estimate,US West (Oregon),CloudWatch,Amazon CloudWatch,0,206.95,2483.40,USD,"Number of Metrics (includes detailed and custom metrics) (50), GetMetricData: Number of metrics requested (), Standard Logs: Data Ingested (100 GB), Number of Dashboards (50), Expected Logs Data scanned (100 GB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
